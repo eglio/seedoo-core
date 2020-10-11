@@ -1,0 +1,1 @@
+web: python ./OCB/openerp-server --addons-path=OCB/openerp/addons,OCB/addons,web,seedoo-core,l10n-italy,server-tools --xmlrpc-port=8069 --db_host=ec2-54-246-87-132.eu-west-1.compute.amazonaws.com --db_port=5432 --db_user=adrawloqynazeo --db_password=bc3b768de47a80de3c53247b4e26cdbdc3eb917cd6fb59267b303bf7d0453a9c --data-dir=~/seedoo/data  --logfile=~/seedoo/log/seedoo.log
